@@ -40,6 +40,10 @@ public class VehicleValidations {
 	public static Color validateColor(String clr) throws IllegalArgumentException {
 		return Color.valueOf(clr.toUpperCase());
 	}
+	//again added colour validation
+	public static Color validateColor(String clr) throws IllegalArgumentException {
+		return Color.valueOf(clr.toUpperCase());
+	}
 
 	// add public static method to validate manufacture date : manufactureDate :
 	// must be in current financial year(1st Apr 2022 ---31st Mar 2023)
