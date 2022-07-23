@@ -35,6 +35,10 @@ public class VehicleValidations {
 		// => price : valid
 		return price;
 	}
+	public static int validatenumber(int number){
+	//new code will come here
+	//regarding new vlaidation
+	}
 
 	// add public static method for validating color
 	public static Color validateColor(String clr) throws IllegalArgumentException {
